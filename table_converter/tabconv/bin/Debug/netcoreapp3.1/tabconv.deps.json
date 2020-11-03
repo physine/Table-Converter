@@ -1,0 +1,109 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "tabconv/1.0.0": {
+        "dependencies": {
+          "HtmlAgilityPack": "1.11.24",
+          "Microsoft.Toolkit.Parsers": "6.1.1",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "tabconv.dll": {}
+        }
+      },
+      "HtmlAgilityPack/1.11.24": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.24.0",
+            "fileVersion": "1.11.24.0"
+          }
+        }
+      },
+      "Microsoft.Toolkit/6.1.1": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.7.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Toolkit.dll": {
+            "assemblyVersion": "6.1.0.0",
+            "fileVersion": "6.1.1.1"
+          }
+        }
+      },
+      "Microsoft.Toolkit.Parsers/6.1.1": {
+        "dependencies": {
+          "Microsoft.Toolkit": "6.1.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Toolkit.Parsers.dll": {
+            "assemblyVersion": "6.1.0.0",
+            "fileVersion": "6.1.1.1"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.7.1": {
+        "runtime": {
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "4.0.6.0",
+            "fileVersion": "4.700.20.12001"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "tabconv/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HtmlAgilityPack/1.11.24": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DLcytINO8EfCdBgMGsaz8Tvdgu2Aewoo2XX7WfZuRG9cBQRtbm8JZ4/sMRtFvzehjdIDqubdlQb8TqNfjRMEWg==",
+      "path": "htmlagilitypack/1.11.24",
+      "hashPath": "htmlagilitypack.1.11.24.nupkg.sha512"
+    },
+    "Microsoft.Toolkit/6.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9JpDYIXnyu+GwCuP00PzS14E8unVg4lx/HrthoYWlNT1CY9HeGzul8T5yd0j/PxgMtEY9c6t+gg+QEC8eevS+A==",
+      "path": "microsoft.toolkit/6.1.1",
+      "hashPath": "microsoft.toolkit.6.1.1.nupkg.sha512"
+    },
+    "Microsoft.Toolkit.Parsers/6.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t7olz/2604GyMzOJrgGPi2kK3ixXhPEA2/IAcQG2QHENfTjK/COH3dPm6tthD3+Caj/nSX8wfZIwymOcGM9iAQ==",
+      "path": "microsoft.toolkit.parsers/6.1.1",
+      "hashPath": "microsoft.toolkit.parsers.6.1.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zOHkQmzPCn5zm/BH+cxC1XbUS3P4Yoi3xzW7eRgVpDR2tPGSzyMZ17Ig1iRkfJuY0nhxkQQde8pgePNiA7z7TQ==",
+      "path": "system.runtime.compilerservices.unsafe/4.7.1",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512"
+    }
+  }
+}
