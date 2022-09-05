@@ -31,7 +31,7 @@ To run the program enter:
 
     enter "dotnet run"
 
-    from within the \assignments\assignment-01-15458382\tabconv folder
+    from within the \tabconv folder
 
 The output file will appear in the \assignments\assignment-01-15458382\tabconv folder.
 
@@ -60,7 +60,7 @@ How this program is designed:
 
 Test input and output files:
 
-    In the \assignments\assignment-01-15458382\tabconv folder you may have noticed extra file, these files contain test data I used to make sure my code works as it should, feel free to use them as you wish :) though I can imagine you have your own.
+    In the \tabconv folder you may have noticed extra file, these files contain test data I used to make sure my code works as it should, feel free to use them as you wish :) though I can imagine you have your own.
 
         Input test files:
 
