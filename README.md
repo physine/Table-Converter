@@ -33,7 +33,7 @@ To run the program enter:
 
     from within the \tabconv folder
 
-The output file will appear in the \assignments\assignment-01-15458382\tabconv folder.
+The output file will appear in the \tabconv folder.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
