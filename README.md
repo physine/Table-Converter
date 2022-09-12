@@ -37,19 +37,19 @@ The output file will appear in the \tabconv folder.
 
 
 
-How this program is designed:
+How this program is designed
 
-    The input file format is convertect to as list of lists of type string.  This is known as the rawData.
-    This is to pervent having to convert from every file format to every other file format.
+The input file format is convertect to as list of lists of type string.  This is known as the rawData.
+This is to pervent having to convert from every file format to every other file format.
 
-    To convert to rawData with one the following methods:
+To convert to rawData with one the following methods:
 
         public static List<List<String>> getRawDataFromJson(JsonDocument doc)
         public static List<List<String>> getRawDataFromCsv(String fileContent)
         public static List<List<String>> getRawDataFromHtml(HtmlDocument doc)
         public static List<List<String>> getRawDataFromMd(String fileContent)
 
-    Then once rawData is set, one of the following metheds are use to format rawDate to the desired output format:
+Then once rawData is set, one of the following metheds are use to format rawDate to the desired output format:
 
         public static String getJsonFromRawData(List<List<String>> rawData)
         public static String getCsvFromRawData(List<List<String>> rawData)
@@ -60,28 +60,28 @@ How this program is designed:
 
 Test input and output files:
 
-    In the \tabconv folder you may have noticed extra file, these files contain test data I used to make sure my code works as it should, feel free to use them as you wish :) though I can imagine you have your own.
+In the \tabconv folder you may have noticed extra file, these files contain test data I used to make sure my code works as it should, feel free to use them as you wish :) though I can imagine you have your own.
 
-        Input test files:
+Input test files:
 
-            table_test.html
-            table_test.csv
-            table_test.json
-            table_test.md
+table_test.html
+table_test.csv
+table_test.json
+table_test.md
 
-        OutPut of the program being inputed with the above input files:
+OutPut of the program being inputed with the above input files:
 
-            out.html
-            out.csv
-            out.json
-            out.md
+out.html
+out.csv
+out.json
+out.md
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Some notes regarding output formatting:
 
-        - The output of json is prettified.
-        - I tried greatly to find a way to prettify the html output but could not find a way and I didn't have time to implament from scratch myself.  So the thml output is not pretty but it is correct.
+- The output of json is prettified.
+- I tried greatly to find a way to prettify the html output but could not find a way and I didn't have time to implament from scratch myself.  So the thml output is not pretty but it is correct.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
